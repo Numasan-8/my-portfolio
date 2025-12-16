@@ -8,21 +8,13 @@ body {
 
 /* ヘッダー画像エリア */
 .main-header {
-
-    /* 背景画像をセットする */
     background-image: url('header.JPG');
-    
-    /* 画像をエリアいっぱいに広げる（重要！） */
     background-size: cover;
-    
-    /* 画像の中心を表示する */
     background-position: center;
-    
-    /* 文字が見えやすいように白くして影をつける */
     color: white;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
 
-    background-color: #e3ecf5; /* 薄い青 */
+    background-color: #e3ecf5;
     height: 200px;
     display: flex;
     align-items: center;
@@ -33,7 +25,7 @@ body {
 
 /* 2カラムレイアウトの外枠 */
 .container {
-    display: flex; /* 横並びにする魔法 */
+    display: flex;
     max-width: 1000px;
     margin: 20px auto;
     background-color: #fff;
@@ -62,7 +54,7 @@ body {
 
 /* 右メインコンテンツ */
 .content {
-    flex: 1; /* 残りの幅を全部使う */
+    flex: 1;
     padding: 30px;
 }
 
@@ -80,14 +72,14 @@ h2 {
     display: flex;
     gap: 20px;
     align-items: center;
-    background-color: #e3ecf5; /* 薄い青背景 */
+    background-color: #e3ecf5;
     padding: 20px;
     border-radius: 8px;
 }
 .profile-img img {
     width: 120px;
     height: 120px;
-    border-radius: 50%; /* 丸く切り抜く */
+    border-radius: 50%;
     object-fit: cover;
     border: 3px solid #fff;
 }
@@ -108,7 +100,7 @@ h2 {
 
 /* 本のリスト */
 .book-item {
-    background-color: #fff8dc; /* 薄い黄色背景 */
+    background-color: #fff8dc;
     border: 1px solid #ddd;
     padding: 15px;
     margin-bottom: 10px;
@@ -117,7 +109,7 @@ h2 {
 
 /* フッター */
 .main-footer {
-    background-color: #f5d0d0; /* ピンク背景 */
+    background-color: #f5d0d0;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
