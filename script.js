@@ -6,9 +6,8 @@ const certifications = [
 
 // 参考書データ
 const books = [
-    { title: "キタミ式イラストIT塾 基本情報技術者", comment: "図解が多くて分かりやすかったです。" },
-    { title: "Webを支える技術", comment: "HTTPの仕組みが詳しく学べました。" },
-    { title: "改訂新版 JavaScript本格入門", comment: "JavaScriptの基礎から応用まで幅広くカバーしています。" },
+    { title: "プログラミングコンテスト攻略のためのアルゴリズムとデータ構造", comment: "アルゴリズムの基礎を学ぶのに最適な一冊です。" },
+    { title: "ゼロから作る DeepLearning", comment: "Deep Learningの入門として活用しました。" },
 ];
 
 // 1. 資格リストをHTMLに埋め込むロジック
