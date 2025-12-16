@@ -10,7 +10,7 @@ body {
 .main-header {
 
     /* 背景画像をセットする */
-    background-image: url('header.jpg');
+    background-image: url('header.JPG');
     
     /* 画像をエリアいっぱいに広げる（重要！） */
     background-size: cover;
